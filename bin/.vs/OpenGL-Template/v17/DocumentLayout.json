@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TANKS\\bin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A24EE77D-9B0D-3B85-AE08-BA289EE0CC44}|playground.vcxproj|C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24EE77D-9B0D-3B85-AE08-BA289EE0CC44}|playground.vcxproj|C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleFragmentShader.fragmentshader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24EE77D-9B0D-3B85-AE08-BA289EE0CC44}|playground.vcxproj|C:\\TANKS\\src\\OpenGL-Template-master\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24EE77D-9B0D-3B85-AE08-BA289EE0CC44}|playground.vcxproj|C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24EE77D-9B0D-3B85-AE08-BA289EE0CC44}|playground.vcxproj|C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleVertexShader.vertexshader||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleFragmentShader.fragmentshader",
+              "DocumentMoniker": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleFragmentShader.fragmentshader",
+              "RelativeDocumentMoniker": "..\\src\\OpenGL-Template-master\\playground\\SimpleFragmentShader.fragmentshader",
+              "ToolTip": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleFragmentShader.fragmentshader",
+              "RelativeToolTip": "..\\src\\OpenGL-Template-master\\playground\\SimpleFragmentShader.fragmentshader",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-20T12:04:41.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SimpleVertexShader.vertexshader",
+              "DocumentMoniker": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleVertexShader.vertexshader",
+              "RelativeDocumentMoniker": "..\\src\\OpenGL-Template-master\\playground\\SimpleVertexShader.vertexshader",
+              "ToolTip": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\SimpleVertexShader.vertexshader",
+              "RelativeToolTip": "..\\src\\OpenGL-Template-master\\playground\\SimpleVertexShader.vertexshader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-20T12:04:40.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\TANKS\\src\\OpenGL-Template-master\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "..\\src\\OpenGL-Template-master\\CMakeLists.txt",
+              "ToolTip": "C:\\TANKS\\src\\OpenGL-Template-master\\CMakeLists.txt",
+              "RelativeToolTip": "..\\src\\OpenGL-Template-master\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-03T13:50:22.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playground.cpp",
+              "DocumentMoniker": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.cpp",
+              "RelativeDocumentMoniker": "..\\src\\OpenGL-Template-master\\playground\\playground.cpp",
+              "ToolTip": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.cpp",
+              "RelativeToolTip": "..\\src\\OpenGL-Template-master\\playground\\playground.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwKsCAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T13:49:57.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "playground.h",
+              "DocumentMoniker": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.h",
+              "RelativeDocumentMoniker": "..\\src\\OpenGL-Template-master\\playground\\playground.h",
+              "ToolTip": "C:\\TANKS\\src\\OpenGL-Template-master\\playground\\playground.h",
+              "RelativeToolTip": "..\\src\\OpenGL-Template-master\\playground\\playground.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-03T13:49:47.755Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

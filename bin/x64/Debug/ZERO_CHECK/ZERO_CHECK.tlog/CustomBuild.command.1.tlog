@@ -1,0 +1,10 @@
+^C:\TANKS\BIN\CMAKEFILES\8F32709D0553EC8D3568B424BD3F21DD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/TANKS/src/OpenGL-Template-master -BC:/TANKS/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/TANKS/bin/OpenGL-Template.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

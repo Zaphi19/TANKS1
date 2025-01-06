@@ -1,0 +1,64 @@
+#version 330 core
+
+out vec4 FragColor;
+
+uniform vec4 objectColor;
+uniform vec3 lightPos;    // Position of the light source
+uniform vec3 viewPos;     // Position of the camera
+uniform float ambientStrength;  // Ambient light strength
+uniform float specularStrength; // Specular reflection strength
+uniform float shininess;        // Shininess factor
+uniform float lightIntensity;   // Light intensity
+uniform bool isPreGame;
+
+in vec3 FragPos;  // World coordinates of the fragment
+in vec3 Normal;   // Normal vector of the fragment
+
+struct Material {
+    vec3 diffuse;
+    vec3 specular;
+    vec3 emissive;
+    float shininess;
+};
+
+uniform Material material;
+uniform struct SpotLight {
+    vec3 position;
+    vec3 direction;
+    float innerCone;
+    float outerCone;
+    vec3 diffuse;
+    vec3 specular;
+    vec3 ambient;
+} u_spot_light;
+
+void main()
+{
+    vec3 color;
+
+    if (isPreGame) {
+        color = objectColor.rgb;  // Einfach das Objekt direkt ausgeben
+    } else {
+        vec3 ambient = ambientStrength * material.diffuse;
+
+        vec3 norm = normalize(Normal);
+        vec3 lightDir = normalize(lightPos - FragPos);
+        float diff = max(dot(norm, lightDir), 0.0);
+        vec3 diffuse = diff * material.diffuse;
+
+        vec3 reflectDir = reflect(-lightDir, norm);
+        vec3 specular = specularStrength * material.specular;
+
+        vec3 spotDir = normalize(u_spot_light.position - FragPos);
+        float theta = dot(spotDir, normalize(u_spot_light.direction));
+        float epsilon = u_spot_light.innerCone - u_spot_light.outerCone;
+        float intensity = clamp((theta - u_spot_light.outerCone) / epsilon, 0.02, 1.0);
+
+        vec3 spotlight = (u_spot_light.ambient * material.diffuse) +
+                         (intensity * u_spot_light.diffuse * diff) +
+                         (intensity * u_spot_light.specular);
+
+        color = ((ambient + diffuse + specular + spotlight) * lightIntensity) * objectColor.rgb;
+    }
+    FragColor = vec4(color, 1.0);
+}

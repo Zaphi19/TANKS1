@@ -1,0 +1,62 @@
+﻿  playground.cpp
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(349,16): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(354,16): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(454,36): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(454,36): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(454,49): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(454,49): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(455,40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(468,36): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(468,36): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(468,49): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(468,49): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(469,40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(479,32): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(479,32): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(479,45): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(479,45): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(480,36): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(488,36): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(488,36): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(488,49): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(488,49): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(489,40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(530,44): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(530,44): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(530,61): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(530,61): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(647,27): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244: "Initialisierung": Konvertierung von "_Ty" in "_Ty1", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:             _Ty1=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16): warning C4244:         ]
+  (Quelldatei „../src/OpenGL-Template-master/playground/playground.cpp“ wird kompiliert)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,16):
+      der Vorlageninstanziierungskontext (der älteste zuerst) ist
+          C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(544,13):
+          Siehe Verweis auf die gerade kompilierte Instanziierung "std::pair<float,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept" der Funktions-Vorlage.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\TANKS\src\OpenGL-Template-master\playground\playground.cpp(543,60):
+              Ersten Verweis auf "std::pair<float,float>::pair" in "distributeEnemies" anzeigen
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244: "Initialisierung": Konvertierung von "_Ty" in "_Ty2", möglicher Datenverlust
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+  (Quelldatei „../src/OpenGL-Template-master/playground/playground.cpp“ wird kompiliert)
+  
+  playground.vcxproj -> C:\TANKS\bin\Debug\playground.exe
